@@ -1,0 +1,145 @@
+*{
+    font-family: "mantserret";
+}
+#title{
+    background-color:rgb(240, 59, 83);
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+h1 ,h2 ,h3, h4 ,h5 ,h6{
+    font-family: "montserret bold";
+}
+.heading-topSec/*h1*/{
+    font-family:"montserret-black";
+    font-size: 3.7rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    color:#8f8f8f;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    text-decoration: none; 
+    font-family: "ubuntu";
+    font-size:2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family:" monserret-light"
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.img-title{
+    width: 60%;
+    transform: rotate(30deg);
+    position: absolute;
+    right:30%;
+}
+/* Features */
+#features{
+    padding: 7% 15%;
+    background-color:#fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color:rgb(240, 59, 83);
+  margin-bottom: 1rem
+}
+.icon:hover{
+    color:rgb(223, 21, 48); 
+}
+#testimonials{
+
+    background-color: rgb(240, 59, 83);
+    color:#fff;
+    text-align: center;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius:100%;
+    margin: 20px;
+}
+#press{
+    background-color: rgb(240, 59, 83);
+    text-align:center;
+    padding-bottom:4%;
+
+}
+.press-images{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+/* pericing section*/
+#pricing{
+    padding: 100px;
+    text-align:center;
+}
+.pricing-h2-text{
+  font-size: 3rem;
+  line-height: 1.5; 
+}
+.pricing-column {
+   padding: 3% 2%;
+}
+@media(min-width:1100px){
+    .img-title{
+        text-align: center;
+    }
+}
+@media(max-width :1100px){
+    .img-title{
+        position: static;
+        transform: rotate(0);
+
+    }
+}
+/* call to section*/
+#cta {
+  background-color:rgb(240, 59, 83);
+  text-align: center;
+  padding:  7% 15%;
+  
+  color:#fff;
+
+}
+.cta-heading {
+    font-family: "monserret-black";
+    font-size:3.5rem;
+    line-height:1.5;
+}
+/* footer section*/
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+
+}
+.footer-images{
+    margin:20px 10px;
+}
